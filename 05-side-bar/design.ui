@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1450</width>
+    <height>1681</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>InvenTrack</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame2">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>250</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#405a78;
+border-radius:15px;
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="11" column="0">
+        <widget class="QFrame" name="Settingframe">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_196">
+          <item row="0" column="0">
+           <widget class="QToolButton" name="SettingtoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/audit (1).png</normaloff>assets/icons/#e2e9ed/audit (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="SettingButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Rockwell&quot;;
+border:non;
+color: rgb(226, 236, 237);</string>
+            </property>
+            <property name="text">
+             <string>Invoice</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QToolButton" name="SettingtoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/audit.png</normaloff>assets/icons/#405a78/audit.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QFrame" name="Productframe">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="1">
+           <widget class="QToolButton" name="ProducttoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/box-open-full (1).png</normaloff>assets/icons/#405a78/box-open-full (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="ProductButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 9pt &quot;Rockwell&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Products</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QToolButton" name="ProducttoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/box-open-full.png</normaloff>assets/icons/#e2e9ed/box-open-full.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QFrame" name="Clientframe">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="1">
+           <widget class="QToolButton" name="ClienttoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/target-audience.png</normaloff>assets/icons/#405a78/target-audience.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="ClientButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 9pt &quot;Rockwell&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Clients</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QToolButton" name="ClienttoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/target-audience (1).png</normaloff>assets/icons/#e2e9ed/target-audience (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QFrame" name="Reportframe">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_38">
+          <item row="0" column="0">
+           <widget class="QToolButton" name="ReporttoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/dashboard-panel (1).png</normaloff>assets/icons/#e2e9ed/dashboard-panel (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="ReportButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Rockwell&quot;;
+border:non;
+color: rgb(216, 225, 226);</string>
+            </property>
+            <property name="text">
+             <string>Analysis</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QToolButton" name="ReporttoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/dashboard-panel.png</normaloff>assets/icons/#405a78/dashboard-panel.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QFrame" name="Requestframe">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11">
+          <item row="0" column="0">
+           <widget class="QToolButton" name="RequesttoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/checklist-task-budget.png</normaloff>assets/icons/#e2e9ed/checklist-task-budget.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="RequestButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Rockwell&quot;;
+border:non;
+color: rgb(226, 236, 237);</string>
+            </property>
+            <property name="text">
+             <string>Debts</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QToolButton" name="RequesttoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/checklist-task-budget (1).png</normaloff>assets/icons/#405a78/checklist-task-budget (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QFrame" name="Paymentframe">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="0" column="0">
+           <widget class="QToolButton" name="PaymenttoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/credit-card.png</normaloff>assets/icons/#e2e9ed/credit-card.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="PaymentButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Rockwell&quot;;
+border:non;
+color: rgb(226, 236, 237);</string>
+            </property>
+            <property name="text">
+             <string>Payment</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QToolButton" name="PaymenttoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/credit-card (1).png</normaloff>assets/icons/#405a78/credit-card (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QFrame" name="ManagementFrame">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_12">
+          <item row="0" column="1">
+           <widget class="QToolButton" name="ManagementtoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/selling (1).png</normaloff>assets/icons/#e2e9ed/selling (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QToolButton" name="ManagementtoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/selling.png</normaloff>assets/icons/#405a78/selling.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="ManagementButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 9pt &quot;Rockwell&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Management</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QFrame" name="Supplierframe">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0">
+           <widget class="QToolButton" name="SuppliertoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/supplier-alt (1).png</normaloff>assets/icons/#e2e9ed/supplier-alt (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="SupplierButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Rockwell&quot;;
+border:non;
+color: rgb(226, 236, 237);</string>
+            </property>
+            <property name="text">
+             <string>Suppliers</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QToolButton" name="SuppliertoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/supplier-alt.png</normaloff>assets/icons/#405a78/supplier-alt.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QFrame" name="HomeFrame">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_134">
+          <item row="0" column="1">
+           <widget class="QToolButton" name="HometoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/house-blank.png</normaloff>assets/icons/#e2e9ed/house-blank.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QToolButton" name="HometoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/house-blank (1).png</normaloff>assets/icons/#405a78/house-blank (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="HomeButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 9pt &quot;Rockwell&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Home</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QFrame" name="Workerframe">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="0" column="1">
+           <widget class="QToolButton" name="WorkertoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#e2e9ed/employees.png</normaloff>assets/icons/#e2e9ed/employees.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="WorkerButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border:non;
+color: rgb(218, 226, 227);
+font: 9pt &quot;Rockwell&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Workers</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QToolButton" name="WorkertoolButton2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>assets/icons/#405a78/employees (1).png</normaloff>assets/icons/#405a78/employees (1).png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QFrame" name="frame_81">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1450</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>HomeButton</tabstop>
+  <tabstop>ManagementButton</tabstop>
+  <tabstop>ProductButton</tabstop>
+  <tabstop>ClientButton</tabstop>
+  <tabstop>WorkerButton</tabstop>
+  <tabstop>SupplierButton</tabstop>
+  <tabstop>PaymentButton</tabstop>
+  <tabstop>ReportButton</tabstop>
+  <tabstop>RequestButton</tabstop>
+  <tabstop>SettingButton</tabstop>
+  <tabstop>SettingtoolButton2</tabstop>
+  <tabstop>ProducttoolButton2</tabstop>
+  <tabstop>SuppliertoolButton</tabstop>
+  <tabstop>RequesttoolButton2</tabstop>
+  <tabstop>ManagementtoolButton2</tabstop>
+  <tabstop>WorkertoolButton</tabstop>
+  <tabstop>WorkertoolButton2</tabstop>
+  <tabstop>RequesttoolButton</tabstop>
+  <tabstop>ProducttoolButton</tabstop>
+  <tabstop>ManagementtoolButton</tabstop>
+  <tabstop>HometoolButton</tabstop>
+  <tabstop>PaymenttoolButton2</tabstop>
+  <tabstop>SuppliertoolButton2</tabstop>
+  <tabstop>SettingtoolButton</tabstop>
+  <tabstop>ClienttoolButton</tabstop>
+  <tabstop>ReporttoolButton2</tabstop>
+  <tabstop>HometoolButton2</tabstop>
+  <tabstop>PaymenttoolButton</tabstop>
+  <tabstop>ReporttoolButton</tabstop>
+  <tabstop>ClienttoolButton2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
